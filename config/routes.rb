@@ -1,5 +1,7 @@
 Urdb::Application.routes.draw do
-  root 
+  root 'videos#show_all'
+  get  '/videos/:id' => 
 
-  get 
+  get '/videos/show_all' => 'videos#show_all', as: 'home'
+  
 end
