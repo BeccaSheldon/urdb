@@ -1,28 +1,7 @@
-== README
+README:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Description: 
+This fly app tells you all you dreamed of knowing about something I haven't decided on yet, becusee I just started the project. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Disclaimer:
+This app isn't for the general public. Please only use if you plan on giving me a super turnt evaluation. 
