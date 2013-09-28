@@ -1,11 +1,11 @@
 class VideosController < ApplicationController
 
-  def show_all
-    @videos = 
+  def home
+    @videos = Video.all
   end
 
-  def show_one
-    @video = Video
+  def show
+    @video = Video.find_by_id(params[:id])
   end
 
 end

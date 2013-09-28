@@ -1,0 +1,15 @@
+<header>	
+	<h1><%= link_to 'URDB', video_url(@Video.all) %></h1>
+</header>
+
+<div>
+	<h3><%= @video.title %></h3>
+	<iframe width="560" height="315" src=<%= @video.embed_link %> frameborder="0" allowfullscreen>
+		<%= @video.youtube_id %>
+	</iframe>
+	<p>Description: <%= @video.descrition %></p>
+</div>
+
+<footer>
+	<p>go to UR own beat</p>
+</footer>

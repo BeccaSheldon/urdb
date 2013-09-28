@@ -1,0 +1,16 @@
+<header>
+	<h1>URDB | Binary Beatz Database</h1>
+	<p>UR on the URBD homepage. Choose your track by clicking on one of the myster gifs below!</p>
+</header>
+
+<div>
+	<ul>
+		<%= @videos.each do |video| %>
+			<li><%= link_to video.title, video_url(video.id) %><%= image_tag video.gif, size: "100x100" %></li>
+		<% end %>
+	</ul>
+</div>	
+
+<footer>
+	<p>peace</p>
+</footer>
