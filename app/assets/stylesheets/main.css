@@ -38,15 +38,16 @@ ul li a {
 	text-decoration: none;
 }
 
-ul li a:visit {
+ul li a:link {
 	color: #000;
 }
-ul li a:visted: {
+ul li a:visited {
 	color: #000;
 }
 ul li a:hover {
 	background-color: #fff;
 }
+
 p {
 	margin-bottom: 5px;
 	text-align: center;
