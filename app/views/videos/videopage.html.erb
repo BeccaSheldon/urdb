@@ -1,0 +1,19 @@
+<header>
+	<!-- use dynamic segment to pull video info from data base -->
+	<h1>You're watching '<%= @video.title %>'</h1>
+	<p>Description: <%= @video.description %></p>
+	<p><%= link_to image_tag(@video.gif), homepage_url %></p>
+</header>
+
+<div>
+	<p><iframe width="560" height="315" src="<%= @video.link %>" frameborder="0" allowfullscreen><%= @video.yt_id %></iframe></p>
+
+	<!-- goes back to list of all videos -->
+	<p><button>
+		<%= link_to 'back', homepage_url %>
+	</button></p>
+</div>
+
+<footer>
+	<p>one</p>
+</footer>

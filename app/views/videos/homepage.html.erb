@@ -1,0 +1,18 @@
+<header>
+	<h1>URDB | Database for UR fave beatz</h1>
+</header>
+
+<div>
+	<ul>
+	<!-- loop through active record database and list each video by using dynamic segments and named routes -->
+		<% @videos.each do |video| %>	
+		<li>
+			<%= link_to video.title, video_url(video.id)%>
+		</li>
+		<% end %>	
+	</ul>
+</div>
+
+<footer>
+	<p>one</p>
+</footer>
